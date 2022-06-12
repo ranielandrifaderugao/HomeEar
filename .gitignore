@@ -1,0 +1,6 @@
+model
+Raspberry-Pi-Installer-Scripts
+i2clcd
+btlib.c
+btlib.h
+functions.so
