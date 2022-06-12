@@ -8,5 +8,3 @@ To use this in your Raspberry Pi you will need to do the following:
 3. Install the module for [microphone](https://makersportal.com/blog/recording-stereo-audio-on-a-raspberry-pi).
 4. Install the module for [LED](https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage). 
 5. Use a resnet50 model for audio classification.
-6. You will need to edi
-
