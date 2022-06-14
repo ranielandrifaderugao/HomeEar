@@ -1,6 +1,6 @@
 # HomeEar: AN IN-HOME AWARENESS AND ALERTING SYSTEM FOR THE DEAF AND HARD-OF-HEARING
 
-HomeEar is designed as a system of devices that will serve as a companion for the deaf and hard-of-hearing people inside their homes. Its primary function is to recognize essential sounds at home and alert them immediately. 
+HomeEar is designed as a system of devices that will serve as a companion for the deaf and hard-of-hearing people inside their homes. Its primary function is to recognize essential sounds at home and alert them immediately. It supports seven sounds and has six locations selection.
 
 The system is divided into four processes. These are capture audio, compute features, model prediction, and network.
 
@@ -14,5 +14,5 @@ The system is divided into four processes. These are capture audio, compute feat
   A resnet50 model is used for audio classification. Using another model like the densenet model or other resnet models is possible. The input shape to be fed into the model should be in the shape of (1,128,101,3). 
 
 ## NETWORK
-  The network process consists of the system's communication and alerting function. For the communication, clone the repository for the [bluetooth interface](https://github.com/petzval/btferret) of Raspberry Pi. This is used to send the sounds detected by one device to other devices. Note that the Bluetooth interface used is in the language of C, and the system is developed using python. In order to use it, ctypes library is used. For the alerting function, Install the module for the [LCD](https://github.com/WuSiYu/python-i2clcd). This is used to display the location, and the sound detected. When installing the LCD on the Raspberry Pi, make use of other pins using this [configuration](https://www.instructables.com/Raspberry-PI-Multiple-I2c-Devices/) because the i2c pin is used for shutdown function. Install the module for [LED](https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage). This is used for visual alert.
+  The network process consists of the system's communication and alerting function. For the communication, clone the repository for the [bluetooth interface](https://github.com/petzval/btferret) of Raspberry Pi. This is used to send the sounds detected by one device to other devices. Note that the Bluetooth interface used is in the language of C, and the system is developed using python. In order to use it, ctypes library is used. For the alerting function, Install the module for the [LCD](https://github.com/WuSiYu/python-i2clcd). This is used to display the location, and the sound detected. When installing the LCD on the Raspberry Pi, make use of other pins using this [configuration](https://www.instructables.com/Raspberry-PI-Multiple-I2c-Devices/) because the i2c pin is used for shutdown function. Install the module for [LED](https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage). This is used for visual alert. The colors can be changed in the labels.py file.
 
