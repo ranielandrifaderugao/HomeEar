@@ -1,0 +1,1 @@
+cmd_/home/raspi/homeEar/Raspberry-Pi-Installer-Scripts/i2s_mic_module/Module.symvers := sed 's/\.ko$$/\.o/' /home/raspi/homeEar/Raspberry-Pi-Installer-Scripts/i2s_mic_module/modules.order | scripts/mod/modpost -m -a  -o /home/raspi/homeEar/Raspberry-Pi-Installer-Scripts/i2s_mic_module/Module.symvers -e -i Module.symvers   -T -

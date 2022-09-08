@@ -1,0 +1,1 @@
+cmd_/home/raspi/homeEar/Raspberry-Pi-Installer-Scripts/i2s_mic_module/modules.order := {   echo /home/raspi/homeEar/Raspberry-Pi-Installer-Scripts/i2s_mic_module/snd-i2smic-rpi.ko; :; } | awk '!x[$$0]++' - > /home/raspi/homeEar/Raspberry-Pi-Installer-Scripts/i2s_mic_module/modules.order
