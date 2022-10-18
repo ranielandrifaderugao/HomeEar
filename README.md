@@ -4,7 +4,7 @@ https://user-images.githubusercontent.com/63916644/196342462-1fc9d0a4-c86b-4cba-
 
 ![HomeEar](https://user-images.githubusercontent.com/63916644/173497158-d913cbd4-3b5d-4268-8069-9864439469c7.png)
 
-HomeEar is designed as a system of devices that will serve as a companion for the deaf and hard-of-hearing people inside their homes. Its primary function is to recognize essential sounds at home and alert them immediately. It supports seven sounds and has six locations selection.
+HomeEar is designed as a system of devices that will serve as a companion for the deaf and hard-of-hearing people inside their homes. Its primary function is to recognize essential sounds at home and alert them immediately. It supports seven sounds particularly, doorbell, door knock, emergency alarm, crying baby, kettle whistle, telephone ringing, water running and has five locations selection which are bedroom, kitchen, living room, bathroom and general.
 
 The system is divided into four processes. These are capture audio, compute features, model prediction, and network.
 
