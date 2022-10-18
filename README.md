@@ -1,5 +1,7 @@
 # HomeEar: AN IN-HOME AWARENESS AND ALERTING SYSTEM FOR THE DEAF AND HARD-OF-HEARING
 
+https://user-images.githubusercontent.com/63916644/196342462-1fc9d0a4-c86b-4cba-8d01-bfaacae01141.mp4
+
 ![HomeEar](https://user-images.githubusercontent.com/63916644/173497158-d913cbd4-3b5d-4268-8069-9864439469c7.png)
 
 HomeEar is designed as a system of devices that will serve as a companion for the deaf and hard-of-hearing people inside their homes. Its primary function is to recognize essential sounds at home and alert them immediately. It supports seven sounds and has six locations selection.
