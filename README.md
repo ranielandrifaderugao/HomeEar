@@ -1,4 +1,4 @@
-# HomeEar: AN IN-HOME AWARENESS AND ALERTING SYSTEM FOR THE DEAF AND HARD-OF-HEARING
+# HomeEar: An In-Home Awareness and Alerting System for the Deaf and Hard-of-hearing
 
 https://user-images.githubusercontent.com/63916644/196342462-1fc9d0a4-c86b-4cba-8d01-bfaacae01141.mp4
 
